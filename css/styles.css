@@ -417,7 +417,7 @@ display:flex;
 align-items: center;
 justify-content: center;
 
-
+transition:border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon{
 
@@ -430,6 +430,7 @@ justify-content: center;
 .client-box{
   outline: solid #AFB1B8 1px;
   border-radius: 4px;
+
   
 }
 .clients-item:hover,
